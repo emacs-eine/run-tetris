@@ -10,7 +10,7 @@
 
 ## 💾 Installation
 
-You need to add this line to your Eask file (global recommanded).
+You need to add this line to your Eask file (global recommended).
 
 ```elisp
 (source 'gnu)
@@ -56,12 +56,6 @@ Link this package as a global dependency:
 
 ```sh
 eask -g link add run-tetris </path/to/project/dir/>
-```
-
-Then execute the command:
-
-```sh
-eask -g exec run-tetris --help
 ```
 
 *📝 P.S. For more information, find the Eask manual at https://emacs-eask.github.io/.*
