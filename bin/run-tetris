@@ -3,7 +3,7 @@
 
 :;test -n "$EMACS" || EMACS=emacs
 :;test -n "$EASK_EMACS" && EMACS=$EASK_EMACS
-:;exec "$EMACS" -batch -Q -l "$0" -- "$@"
+:;exec "$EMACS" -Q -l "$0" -- "$@"
 
 ;;; run-tetris --- Play Tetris  -*- lexical-binding: t; -*-
 
