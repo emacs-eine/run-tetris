@@ -8,9 +8,10 @@
 (keywords "games")
 
 (package-file "run-tetris.el")
+(files "bin")
 
 (script "test" "echo \"Error: no test specified\" && exit 1")
 
-(source "gnu")
+(source 'gnu)
 
 (depends-on "emacs" "26.1")
