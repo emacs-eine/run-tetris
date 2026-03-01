@@ -1,10 +1,10 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![EINE Elpa](https://raw.githubusercontent.com/emacs-eine/badges/main/elpa/v/run-tetris.svg)](https://emacs-eine.github.io/elpa/#/run-tetris)
+[![EINE Elpa](https://raw.githubusercontent.com/emacs-eine/badges/main/elpa/v/x-tetris.svg)](https://emacs-eine.github.io/elpa/#/x-tetris)
 
-# run-tetris
+# x-tetris
 > Play Tetris
 
-[![CI](https://github.com/emacs-eine/run-tetris/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-eine/run-tetris/actions/workflows/test.yml)
+[![CI](https://github.com/emacs-eine/x-tetris/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-eine/x-tetris/actions/workflows/test.yml)
 
 <img src="./etc/1.png" alt="" width="50%"/>
 
@@ -22,7 +22,7 @@ You need to add this line to your Eask file (global recommended).
 Then, install it:
 
 ```console
-eask install -g run-tetris
+eask install -g x-tetris
 ```
 
 ## 🔧 Usage
@@ -30,7 +30,7 @@ eask install -g run-tetris
 To run the simple http server:
 
 ```console
-eask -g exec run-tetris
+eask -g exec x-tetris
 ```
 
 ## 🛠️ Contribute
@@ -55,7 +55,7 @@ To run the test locally, you will need the following tools:
 Link this package as a global dependency:
 
 ```sh
-eask -g link add run-tetris </path/to/project/dir/>
+eask -g link add x-tetris </path/to/project/dir/>
 ```
 
 *📝 P.S. For more information, find the Eask manual at https://emacs-eask.github.io/.*

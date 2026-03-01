@@ -1,13 +1,13 @@
 ;; -*- mode: eask; lexical-binding: t -*-
 
-(package "run-tetris"
+(package "x-tetris"
          "1.0.0"
          "Play Tetris")
 
-(website-url "https://github.com/emacs-eine/run-tetris")
+(website-url "https://github.com/emacs-eine/x-tetris")
 (keywords "games")
 
-(package-file "run-tetris.el")
+(package-file "x-tetris.el")
 (files "bin")
 
 (script "test" "echo \"Error: no test specified\" && exit 1")

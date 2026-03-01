@@ -1,10 +1,10 @@
-;;; run-tetris.el --- Play Tetris  -*- lexical-binding: t; -*-
+;;; x-tetris.el --- Play Tetris  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026  Shen, Jen-Chieh
 
 ;; Author: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; Maintainer: Shen, Jen-Chieh <jcs090218@gmail.com>
-;; URL: https://github.com/emacs-eine/run-tetris
+;; URL: https://github.com/emacs-eine/x-tetris
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; Keywords: games
@@ -33,5 +33,5 @@
 
 ;; NOTE: Just the package file.
 
-(provide 'run-tetris)
-;;; run-tetris.el ends here
+(provide 'x-tetris)
+;;; x-tetris.el ends here
